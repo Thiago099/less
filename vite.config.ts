@@ -12,9 +12,9 @@ export default defineConfig({
   },
   css: {
     preprocessorOptions: {
-      scss: {
+      less: {
         additionalData: `
-          @use "./src/style/global.scss" as *;
+          @import "./src/style/global.less";
         `
       }
     }

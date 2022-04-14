@@ -9,8 +9,8 @@ import HelloWorld from './components/HelloWorld.vue'
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite + SCSS" />
 </template>
 
-<style lang="scss">
+<style lang="less">
 #app {
-  @include base(rgb(211, 211, 211));
+  .base(rgb(211, 211, 211));
 } 
 </style>
