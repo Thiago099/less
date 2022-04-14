@@ -11,6 +11,6 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <style lang="scss">
 #app {
-@include base(rgb(211, 211, 211));
+  @include base(rgb(211, 211, 211));
 } 
 </style>
